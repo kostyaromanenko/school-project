@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    display: inline-block;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    background-color: white;
+}
+.site-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 107px;
+margin-top: 42px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    width: 475px;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: #1abc9c;
+}
+/* ________________________________________________________________MAIN_____________________________________________________________________ */
+.section-header{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 485px;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 900;
+    color: #515151;
+    font-size: 48px;
+
+}
+.section-header::after{
+    content:"";
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    display: block;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+.product-name{
+    background-color: #323232;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.product-price{
+   background-color: #8c8c8c;
+    width: 54px;
+    height: 40px;
+    font-family: "Roboto";
+font-weight: 900;
+text-align: center;
+color: #ffffff;
+}
+.product-item{
+    display: flex;
+    width: 255px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.product-item:hover .product-name{
+    background-color: #1abc9c;
+}
+.product-item:hover .product-price{
+    background-color: #7fd9c7;
+}
+/* __________________________________________________________________________________NEWS______________________________________________________________________________________ */
+.news-list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.news-list__item{
+    width: 350px;
+}
+.news-header{
+    line-height: 28px;
+    line-height: 26px;
+    color: #555252;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 29px;
+}
+.news-header::after{
+    content: "";
+    width: 135px;
+    height: 3px;
+    background-color: #4ec6ab;
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.news-btn{
+    width: 160px;
+    height: 50px;
+    background-color: #4ec6ab;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    transition: .5s;
+    font-family: "Open Sans";
+font-weight: 300;
+text-align: center;
+font-size: 16px;
+}
+.news-text{
+    line-height: 26px;
+color: #555252;
+font-family: "Open Sans";
+font-weight: 400;
+margin-bottom: 20px;
+font-size: 18px;
+}
+.news-btn:hover{
+    box-shadow: 0px 0px 20px -3px rgba(0,0,0,0.53);
+    width: 200px;
+    height: 75px;
+    background-color: #399480;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: rgba(183,175,233,1); 
+    font-size: 25px;
+}
+
+/* ________________________________________________________POLL______________________________________________________________________ */
+
+.section-poll{
+    margin-left: 220px;
+}
