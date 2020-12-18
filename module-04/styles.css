@@ -57,6 +57,10 @@ margin-top: 42px;
     margin: 0 auto;
     margin-top: 34px;
 }
+.product-description{
+    display: flex;
+    
+}
 .product-name{
     background-color: #323232;
     color: #ffffff;
@@ -98,7 +102,8 @@ color: #ffffff;
 /* __________________________________________________________________________________NEWS______________________________________________________________________________________ */
 .news-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    
     
 }
 .news-list__item{
@@ -158,5 +163,12 @@ font-size: 18px;
 /* ________________________________________________________POLL______________________________________________________________________ */
 
 .section-poll{
-    margin-left: 220px;
+    margin-left: 390px;
+}
+.add-section__container{
+    margin-bottom: 10%;
+}
+.add-section__add{
+    margin-left: 6%;
+    margin-top: 50px;
 }
