@@ -160,10 +160,16 @@ font-size: 18px;
     font-size: 25px;
 }
 
+.animation-img{
+    display: block;
+}
+
 /* ________________________________________________________POLL______________________________________________________________________ */
 
 .section-poll{
-    margin-left: 390px;
+  
+    display: flex;
+    justify-content: space-around;
 }
 .add-section__container{
     margin-bottom: 10%;
